@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Inicio', url: '/folder/Inicio', icon: 'mail' },
-    { title: 'Juegos', url: '/lista-juegos', icon: 'mail' },
-    { title: 'Consolas', url: '/consolas', icon: 'mail' },
-    { title: 'Figuras', url: '/figuras', icon: 'mail' },
+    { title: 'Inicio', url: '/folder/Inicio', icon: 'home' },
+    { title: 'Juegos', url: '/lista-juegos', icon: 'basketball' },
+    { title: 'Consolas', url: '/consolas', icon: 'game-controller' },
+    { title: 'Figuras', url: '/figuras', icon: 'accessibility' },
     
   ];
 
@@ -17,5 +17,10 @@ export class AppComponent {
   public Menu = ['Direccion: Av.Lala', 'Correo: Juegos.lala@juegos.com', 'Numero: 989234512'];
 
   public Contacto = ['Direccion: Av.Lala', 'Correo: Juegos.lala@juegos.com', 'Numero: 989234512'];
-  constructor() {}
+
+  
+  constructor() {
+
+    
+  }
 }
