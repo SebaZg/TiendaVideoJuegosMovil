@@ -14,9 +14,9 @@ export class AppComponent {
   ];
 
   
-  public Menu = ['Direccion: Av.Lala', 'Correo: Juegos.lala@juegos.com', 'Numero: 989234512'];
+  
 
-  public Contacto = ['Direccion: Av.Lala', 'Correo: Juegos.lala@juegos.com', 'Numero: 989234512'];
+  public Contacto = ['Direccion: Av.Lala 555', 'Correo: Juegos.lala@juegos.com', 'Numero: 989234512'];
 
   
   constructor() {
