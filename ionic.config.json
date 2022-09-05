@@ -1,0 +1,7 @@
+{
+  "name": "TiendaVideoJuegos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
