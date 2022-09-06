@@ -1,92 +1,92 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
     <ion-title>Consolas</ion-title>
   </ion-toolbar>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <ion-card style="text-align: center; width:40em; height:35em; " >
-          <ion-card-header>
-            <ion-card-title style="text-align:center;">PLAY 5</ion-card-title>
-            <br>
-            <img src="https://th.bing.com/th/id/OIP.6RMZLEoGTXak9yTJFfVrtQHaEy?pid=ImgDet&rs=1 alt=" alt="" style="width:30em;">
+  <div id="container">
 
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>PLAY 5</ion-card-title>
+        <br>
+        <img src="https://th.bing.com/th/id/OIP.6RMZLEoGTXak9yTJFfVrtQHaEy?pid=ImgDet&rs=1" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$600.000</li>
-              <li> Tipo: Consola </li>
-            </ion-list>
-            <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-    <div class="col-2"></div>
-    <div class="col-4">
-        <ion-card style="text-align: center; width:40em; height:35em; " >
-          <br>
-          <ion-card-header>
-            <ion-card-title style="text-align:center;">XBOX SERIES S </ion-card-title>
-            <br>
-            <img src="https://www.megagames.cl/wp-content/uploads/2020/12/81VdHXDp6bL._AC_SL1500_.jpg" alt="" style="width:20em;">
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$600.000</li>
+          <li> Tipo: Consola </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
 
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>XBOX SERIES S</ion-card-title>
+        <br>
+        <img src="https://www.megagames.cl/wp-content/uploads/2020/12/81VdHXDp6bL._AC_SL1500_.jpg" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$550.000</li>
-              <li> Tipo: Consola </li>
-            </ion-list>
-            <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-      
-    <div class="col-4">
-      <ion-card style="text-align: center; width:40em; height:35em;  " >
-        <ion-card-header>
-          <ion-card-title style="text-align:center;">NINTENDO SWITCH</ion-card-title>
-          <br>
-          <img src="https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/c/o/consola-nintendo-switch-11-joy-con-grises.jpg" alt="" style="width:16em;">
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$550.000</li>
+          <li> Tipo: Consola </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
 
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>NINTENDO SWITCH</ion-card-title>
+        <br>
+        <img src="https://gameplanet-53f8.kxcdn.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/c/o/consola-nintendo-switch-11-joy-con-grises.jpg" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$400.000</li>
-              <li> Tipo: Consola </li>
-            </ion-list>
-            <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-    <div class="col-2"></div>
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$400.000</li>
+          <li> Tipo: Consola </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
 
-    <div class="col-4">
-        <ion-card style="text-align: center; width:40em; height:35em; " >
-          <ion-card-header>
-            <ion-card-title style="text-align:center;">NARUTO SHIPPUDEN</ion-card-title>
-            <br>
-            <img src="https://gizmos.republica.com/files/2012/09/Nintendo-seguira-apoyando-la-consola-Wii-en-el-futuro.jpg" alt="" style="width:22em;">
-
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>WII</ion-card-title>
+        <br>
+        <img src="https://gizmos.republica.com/files/2012/09/Nintendo-seguira-apoyando-la-consola-Wii-en-el-futuro.jpg" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$330.000</li>
-              <li> Tipo: Consola </li>
-            </ion-list>
-            <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$330.000</li>
+          <li> Tipo: Consola </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
+    
+    
   </div>
-  </div>
-
 </ion-content>
+
+

@@ -1,89 +1,92 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Lista-Juegos</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+    <ion-title>Juegos</ion-title>
   </ion-toolbar>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </ion-header>
 
-<ion-content>
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <ion-card style="text-align: center; width:40em; height:35em; " >
-          <ion-card-header>
-            <ion-card-title style="text-align:center;">FIFA 22</ion-card-title>
-            <br>
-            <img src="https://tlsastore.com/img/Public/1075-producto-fifa22-1489.jpg" alt="" style="width:20em;">
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-          </ion-card-header>
+  <div id="container">
+
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>FIFA 22</ion-card-title>
+        <br>
+        <img src="https://tlsastore.com/img/Public/1075-producto-fifa22-1489.jpg" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-             <ion-list>
-              <li> Precio:$25.000</li>
-              <li> Tipo: Futbol </li>
-             </ion-list>
-             <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-    <div class="col-2"></div>
-    <div class="col-4">
-        <ion-card style="text-align: center; width:40em; height:35em; " >
-          <ion-card-header>
-            <ion-card-title style="text-align:center;">GTA V</ion-card-title>
-            <br>
-            <img src="https://www.thecdkeyhub.com/wp-content/uploads/2020/03/GTA-Grand-Theft-Auto-V-FIVE-5-PC-ROCKSTAR-download-CD-KEY-region-free-768x768.png" alt="" style="width:20em;">
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$25.000</li>
+          <li> Tipo: Futbol </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
 
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>GTA V</ion-card-title>
+        <br>
+        <img src="https://www.thecdkeyhub.com/wp-content/uploads/2020/03/GTA-Grand-Theft-Auto-V-FIVE-5-PC-ROCKSTAR-download-CD-KEY-region-free-768x768.png" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$30.000</li>
-              <li> Tipo: Mafia </li>
-             </ion-list>
-             <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-      
-    <div class="col-4">
-      <ion-card style="text-align: center; width:40em;  height:35em;" >
-        <ion-card-header>
-          <ion-card-title style="text-align:center;">CRASH BASH</ion-card-title>
-          <br>
-          <img src="https://www.volkgames.com/wp-content/uploads/2020/10/crash-bashh.jpg" alt="" style="width:20em;">
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$30.000</li>
+          <li> Tipo: Mafia </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
 
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>CRASH BASH</ion-card-title>
+        <br>
+        <img src="https://www.volkgames.com/wp-content/uploads/2020/10/crash-bashh.jpg" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$32.000</li>
-              <li> Tipo: Aventura </li>
-             </ion-list>
-             <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-    <div class="col-2"></div>
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$32.000</li>
+          <li> Tipo: Aventura </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
 
-    <div class="col-4">
-        <ion-card style="text-align: center; width:40em; height:35em; " >
-          <ion-card-header>
-            <ion-card-title style="text-align:center;">DEAD BY DAYLIGHT</ion-card-title>
-            <br>
-            <img src="https://static.chollometro.com/threads/thread_full_screen/default/425505_1.jpg" alt="" style="width:20em;">
-
-          </ion-card-header>
+    <ion-card>
+      <ion-card-header>
+        
+        <ion-card-title>DEAD BY DAYLIGHT</ion-card-title>
+        <br>
+        <img src="https://static.chollometro.com/threads/thread_full_screen/default/425505_1.jpg" alt="" style="width: 10em;">
+      </ion-card-header>
     
-          <ion-card-content>
-            <ion-list>
-              <li> Precio:$20.000</li>
-              <li> Tipo: Terror </li>
-             </ion-list>
-             <ion-button>Comprar</ion-button>
-          </ion-card-content>
-        </ion-card>
-    </div>
-  </div>
+      <ion-card-content>
+        <ion-list>
+          <li> Precio:$20.000</li>
+          <li> Tipo: Terror </li>
+        </ion-list>
+        <ion-button>Comprar</ion-button>
+      </ion-card-content>
+    </ion-card>
+    
+    
   </div>
 </ion-content>
+
+
