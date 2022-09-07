@@ -17,7 +17,7 @@ export class ConsolasPage implements OnInit {
  public Consola2 =[
   {
    nombre:'Xbox Series S',
-   precio:'$$550.000',
+   precio:'$550.000',
    tipo:'Consola',
   },
   ];
@@ -32,7 +32,7 @@ export class ConsolasPage implements OnInit {
   public Consola4 =[
   {
    nombre:'WII',
-   precio:'$$330.000',
+   precio:'$330.000',
    tipo:'Consola',
   },
   ];

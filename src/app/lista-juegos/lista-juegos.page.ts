@@ -36,6 +36,7 @@ export class ListaJuegosPage implements OnInit {
    tipo:'Terror',
   },
   ];
+
   constructor() { }
 
   ngOnInit() {

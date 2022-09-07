@@ -24,10 +24,5 @@ export class FolderPage implements OnInit {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
   }
 
-  onSubmiteTemplate() {
-    console.log('Form submit');
-    console.log(this.usuario);
-  }
-
 
 }
