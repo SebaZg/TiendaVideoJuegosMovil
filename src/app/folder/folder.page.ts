@@ -11,10 +11,22 @@ import { ActivatedRoute } from '@angular/router';
 export class FolderPage implements OnInit {
   public folder: string;
 
+  nombre: string;
+
+  usuario ={
+    email:'',
+    password:''
+  }
+
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
+  }
+
+  onSubmiteTemplate() {
+    console.log('Form submit');
+    console.log(this.usuario);
   }
 
 
