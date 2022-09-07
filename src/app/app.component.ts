@@ -12,8 +12,6 @@ export class AppComponent {
     { title: 'Figuras', url: '/figuras', icon: 'accessibility' },
     
   ];
-
-  
   
 
   public Contacto = ['Direccion: Av.Lala 555', 'Correo: Juegos.lala@juegos.com', 'Numero: 989234512'];
