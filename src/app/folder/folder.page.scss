@@ -7,7 +7,7 @@ ion-menu-button {
   position:absolute;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -27,5 +27,17 @@ ion-menu-button {
   text-decoration: none;
 }
 
+.mapa{
+  padding: 3em 0;/*dar estapacio*/
+  background: linear-gradient(#080808,#888888);
+}
 
+.mapa p{
+  margin: 0 0 2em;/*superior,derecha,inferior*/
+  text-align: center;
+}
 
+.mapa-contenido{
+  width: 940px;
+  margin: 0 auto;
+}

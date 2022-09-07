@@ -31,7 +31,7 @@ export class ListaJuegosPage implements OnInit {
 
   public Juego4 =[
   {
-   nombre:'Dead By Daily',
+   nombre:'Dead By Daylight',
    precio:'$20.000',
    tipo:'Terror',
   },
