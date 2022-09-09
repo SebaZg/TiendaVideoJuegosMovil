@@ -17,16 +17,16 @@
 
   <div id="container">
 
-    <ion-card>
+    <ion-card *ngFor="let label of Figura">
       <ion-card-header>
         
-        <ion-card-title *ngFor="let label of Figura1">{{label.nombre}}</ion-card-title>
+        <ion-card-title>{{label.nombre}}</ion-card-title>
         <br>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/61HKPq-os%2BL._AC_SX679_.jpg" alt="" style="width: 10em;">
+        <img src={{label.img}} alt="" style="width: 10em;">
       </ion-card-header>
     
       <ion-card-content>
-        <ion-list *ngFor="let label of Figura1">
+        <ion-list>
           <li> Precio:{{label.precio}}</li>
           <li> Tipo: {{label.tipo}}</li>
         </ion-list>
@@ -34,56 +34,6 @@
       </ion-card-content>
     </ion-card>
 
-    <ion-card>
-      <ion-card-header>
-        
-        <ion-card-title *ngFor="let label of Figura2">{{label.nombre}}</ion-card-title>
-        <br>
-        <img src="https://th.bing.com/th/id/OIP.AnL3klhIOBRLxGiD6ufcGAHaHa?pid=ImgDet&rs=1" alt="" style="width: 10em;">
-      </ion-card-header>
-    
-      <ion-card-content>
-        <ion-list *ngFor="let label of Figura2">
-          <li> Precio:{{label.precio}}</li>
-          <li> Tipo: {{label.tipo}}</li>
-        </ion-list>
-        <ion-button>Comprar</ion-button>
-      </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>
-        
-        <ion-card-title *ngFor="let label of Figura3">{{label.nombre}}</ion-card-title>
-        <br>
-        <img src="https://www.aniplay.cl/img/productos/279/p0001035_c3372.jpg" alt="" style="width: 10em;">
-      </ion-card-header>
-    
-      <ion-card-content>
-        <ion-list *ngFor="let label of Figura3">
-          <li> Precio:{{label.precio}}</li>
-          <li> Tipo: {{label.tipo}}</li>
-        </ion-list>
-        <ion-button>Comprar</ion-button>
-      </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>
-        
-        <ion-card-title *ngFor="let label of Figura4">{{label.nombre}}</ion-card-title>
-        <br>
-        <img src="https://www.feriafriki.cl/wp-content/uploads/2020/07/PikachuMusculoso-5.jpg" alt="" style="width: 10em;">
-      </ion-card-header>
-    
-      <ion-card-content>
-        <ion-list *ngFor="let label of Figura4">
-          <li> Precio:{{label.precio}}</li>
-          <li> Tipo: {{label.tipo}}</li>
-        </ion-list>
-        <ion-button>Comprar</ion-button>
-      </ion-card-content>
-    </ion-card>
   </div>
 </ion-content>
 

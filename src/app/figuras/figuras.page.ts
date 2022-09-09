@@ -7,33 +7,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FigurasPage implements OnInit {
 
-  public Figura1 =[
+  public Figura =[
     {
      nombre:'Naruto Shippuden',
      precio:'$60.000',
      tipo:'Coleccion',
+     img:"https://images-na.ssl-images-amazon.com/images/I/61HKPq-os%2BL._AC_SX679_.jpg",
     },
- ];
- public Figura2 =[
   {
    nombre:'Crash Bandicoot',
    precio:'$40.000',
    tipo:'Coleccion',
+   img:"https://th.bing.com/th/id/OIP.AnL3klhIOBRLxGiD6ufcGAHaHa?pid=ImgDet&rs=1",
   },
-  ];
-  public Figura3 =[
     {
      nombre:'Goku Ultra Instinto',
      precio:'$60.000',
      tipo:'Coleccion',
+     img:"https://www.aniplay.cl/img/productos/279/p0001035_c3372.jpg",
     },
-    ];
-
-  public Figura4 =[
   {
    nombre:'Pikachu',
    precio:'$44.000',
    tipo:'Coleccion',
+   img:"https://www.feriafriki.cl/wp-content/uploads/2020/07/PikachuMusculoso-5.jpg",
   },
   ];
 

@@ -18,74 +18,22 @@
 
   <div id="container">
 
-    <ion-card>
+    <ion-card *ngFor="let label of Juego">
       <ion-card-header>
         
-        <ion-card-title  *ngFor="let label of Juego1">{{label.nombre}}</ion-card-title>
+        <ion-card-title>{{label.nombre}}</ion-card-title>
         <br>
-        <img src="https://tlsastore.com/img/Public/1075-producto-fifa22-1489.jpg" alt="" style="width: 10em;">
+        <img src={{label.img}} alt="" style="width: 10em;">
       </ion-card-header>
     
       <ion-card-content>
-        <ion-list *ngFor="let label of Juego1">
+        <ion-list>
           <li> Precio:{{label.precio}}</li>
           <li> Tipo:{{label.tipo}}</li>
         </ion-list>
         <ion-button>Comprar</ion-button>
       </ion-card-content>
     </ion-card>
-
-    <ion-card>
-      <ion-card-header>
-        
-        <ion-card-title *ngFor="let label of Juego2">{{label.nombre}}</ion-card-title>
-        <br>
-        <img src="https://www.thecdkeyhub.com/wp-content/uploads/2020/03/GTA-Grand-Theft-Auto-V-FIVE-5-PC-ROCKSTAR-download-CD-KEY-region-free-768x768.png" alt="" style="width: 10em;">
-      </ion-card-header>
-    
-      <ion-card-content>
-        <ion-list *ngFor="let label of Juego2">
-          <li> Precio:{{label.precio}}</li>
-          <li> Tipo: {{label.tipo}}</li>
-        </ion-list>
-        <ion-button>Comprar</ion-button>
-      </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>
-        
-        <ion-card-title *ngFor="let label of Juego3">{{label.nombre}}</ion-card-title>
-        <br>
-        <img src="https://www.volkgames.com/wp-content/uploads/2020/10/crash-bashh.jpg" alt="" style="width: 10em;">
-      </ion-card-header>
-    
-      <ion-card-content>
-        <ion-list *ngFor="let label of Juego3">
-          <li> Precio:{{label.precio}}</li>
-          <li> Tipo: {{label.tipo}}</li>
-        </ion-list>
-        <ion-button>Comprar</ion-button>
-      </ion-card-content>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>
-        
-        <ion-card-title *ngFor="let label of Juego4">{{label.nombre}}</ion-card-title>
-        <br>
-        <img src="https://static.chollometro.com/threads/thread_full_screen/default/425505_1.jpg" alt="" style="width: 10em;">
-      </ion-card-header>
-    
-      <ion-card-content>
-        <ion-list *ngFor="let label of Juego4">
-          <li> Precio:{{label.precio}}</li>
-          <li> Tipo: {{label.tipo}}</li>
-        </ion-list>
-        <ion-button>Comprar</ion-button>
-      </ion-card-content>
-    </ion-card>
-    
     
   </div>
 </ion-content>

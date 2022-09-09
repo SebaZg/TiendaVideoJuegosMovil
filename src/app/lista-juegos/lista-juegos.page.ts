@@ -7,33 +7,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListaJuegosPage implements OnInit {
 
-  public Juego1 =[
+  public Juego =[
     {
      nombre:'Fifa 22',
      precio:'$25.000',
      tipo:'Futbol',
+     img:"https://tlsastore.com/img/Public/1075-producto-fifa22-1489.jpg",
     },
- ];
- public Juego2 =[
   {
    nombre:'GTA V',
    precio:'$25.000',
    tipo:'Mafia',
+   img:"https://www.thecdkeyhub.com/wp-content/uploads/2020/03/GTA-Grand-Theft-Auto-V-FIVE-5-PC-ROCKSTAR-download-CD-KEY-region-free-768x768.png",
   },
-  ];
-  public Juego3 =[
     {
      nombre:'Crash Bash',
      precio:'$32.000',
      tipo:'Aventura',
+     img:"https://www.volkgames.com/wp-content/uploads/2020/10/crash-bashh.jpg",
     },
-    ];
-
-  public Juego4 =[
   {
    nombre:'Dead By Daylight',
    precio:'$20.000',
    tipo:'Terror',
+   img:"https://static.chollometro.com/threads/thread_full_screen/default/425505_1.jpg",
   },
   ];
 
